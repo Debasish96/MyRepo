@@ -12,7 +12,7 @@ print_usage_and_exit () {
     echo >&2
     echo >&2 "Usage: `basename $0` [-t <fork:branch>] [-m <master>] <remote_name>"
     echo >&2
-    echo >&2 "\t<remote_name>:\tThe name of the remote to which to publish your current branch"
+    echo >&2 "\tDebasish96:\tThe name of the remote to which to publish your current branch"
     echo >&2 "\t   \t\tto serve as the source of the pull request."
     echo >&2 "\t   \t\tA branch \"[foo/]bar\" will be published as \"username/bar\"."
     echo >&2 "\t   \t\tYou must set your username in the script."
@@ -32,7 +32,7 @@ print_usage_and_exit () {
 
 NAME="foo"
 if [[ "$NAME" == "foo" ]]; then
-    echo "You must set NAME=<your name> before running this script."
+    echo "You must set NAME=Debasish96 before running this script."
     exit 1
 fi
 
