@@ -1,0 +1,4 @@
+FROM ubuntu
+ADD testfile
+WORKDIR /home
+COPY /etc/os-release
